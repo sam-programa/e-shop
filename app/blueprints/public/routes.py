@@ -1,7 +1,7 @@
 from flask import render_template
 from . import public_bp
 
-@public_bp.route(/)
+@public_bp.route('/') 
 def home():
     return render_template('public/home.html')
 

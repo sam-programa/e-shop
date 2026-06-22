@@ -2,7 +2,7 @@ from flask import Blueprint
 
 auth_bp = Blueprint(
     'auth', 
-    _name_, 
+    __name__, 
     template_folder='../../templates/auth'
     )
 from . import routes
